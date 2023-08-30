@@ -6,8 +6,8 @@ import Loading from "../../components/Loading";
 
 const Login = () => {
   const { login, isLoading, message } = useAuthStore((state) => state, shallow);
-  const [username, setUsername] = useState("admin");
-  const [password, setPassword] = useState("admin");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();

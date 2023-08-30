@@ -64,7 +64,7 @@ function App() {
         },
         {
           path: "/offers/add",
-          element: <AddService />,
+          element: <AddOffer />,
         },
         {
           path: "/services",
